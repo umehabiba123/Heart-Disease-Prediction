@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "heart-disease-app"
+version = "0.1.0"
+description = ""
+authors = ["umehabiba123 <umehabibanwl9@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.30.6"
+sqlmodel = "^0.0.22"
+psycopg2 = "^2.9.9"
+passlib = "^1.7.4"
+bcrypt = "^4.2.0"
+python-multipart = "^0.0.10"
+python-jose = "^3.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
